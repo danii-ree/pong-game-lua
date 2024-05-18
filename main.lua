@@ -79,7 +79,7 @@ function love.draw()
     push:apply('start')
 
     love.graphics.setFont(tinyFont)
-    love.graphics.printf('pong go brrrr', 0, 20, virtualWidth, 'center')
+    love.graphics.printf('Pong Game', 0, 20, virtualWidth, 'center')
 
     love.graphics.setFont(bigboiFont)
     love.graphics.print(tostring(player1Score), virtualWidth / 2 - 50, virtualHeight / 3)
